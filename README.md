@@ -1,94 +1,39 @@
-# 🧾 Receipt Generator Frontend
+# Receipt Generator Frontend
 
-> Gere recibos profissionais a partir de um formulário dinâmico usando React e TypeScript.
+## About the Project
 
----
+Frontend application built with React and TypeScript to generate professional receipts through a dynamic form.
 
-## ✨ Funcionalidades
+The application allows users to enter company and customer information, add multiple products dynamically, calculate the total price automatically, and generate a formatted receipt with automatic numbering.
 
-- 📝 Criar um recibo a partir de um formulário  
-- ➕ Adicionar múltiplos produtos dinamicamente  
-- 🔢 Numeração automática dos recibos  
-- 💰 Calcula o preço total dos produtos automaticamente  
-- 🎨 Layout simples e limpo  
+**Technologies:** React 19, TypeScript 5.8, Vite, React Router DOM 7, and ESLint.
 
----
+## How to Run the Project
 
-## 🛠 Tecnologias
+**Prerequisites:** Node.js and npm installed.
 
-- **React 19**  
-- **TypeScript 5.8**  
-- **Vite**  
-- **React Router DOM 7**  
-- **ESLint** para qualidade do código  
-
----
-
-## 🚀 Instalação
-
-Clone o repositório:
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/alberyReis/receipt_generator_frontend.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
 cd receipt_generator_frontend
 ```
 
-Instale as dependências:
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-Execute o servidor de desenvolvimento:
+### 4. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-O app será executado em http://localhost:5173.
-
-🖥 Uso
-
-1. Preencha as informações da empresa, cliente e produtos no formulário.<br>
-2. Clique em Adicionar Produto para incluir múltiplos itens no recibo.<br>
-3. A numeração do recibo é incrementada automaticamente.<br>
-4. Envie o formulário para visualizar o recibo estilizado na ReceiptScreen.
-
-🧩 Componentes e Telas
-
-Componentes:
-
-* AddIcon – ícone para adicionar produtos
-* ButtonSubmitForm – botão de envio estilizado
-* ContainerInput – container para inputs
-* InputErrorText – exibe erros de validação
-* InputForm – componente principal de input
-
-Telas:
-
-* FormScreen – formulário principal para preencher os dados do recibo
-* ReceiptScreen – exibe o recibo gerado
-
-📁 Estrutura de Pastas
-
-```bash
-src/
-├── components/
-│   ├── AddIcon/
-│   ├── ButtonSubmitForm/
-│   ├── ContainerInput/
-│   ├── InputErrorText/
-│   └── InputForm/
-├── screens/
-│   ├── FormScreen/
-│   └── ReceiptScreen/
-├── App.tsx
-├── main.tsx
-├── index.css
-├── App.css
-└── vite-env.d.ts
-```
-
-📄 Licença
-
-Este projeto está licenciado sob MIT.
+Open [http://localhost:5173](http://localhost:5173) in your browser to use the application.
